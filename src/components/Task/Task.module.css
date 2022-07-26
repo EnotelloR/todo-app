@@ -1,0 +1,18 @@
+.taskBody{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 12px;
+}
+
+.taskText{
+    font-size: 18px;
+}
+
+.taskText_completed{
+    text-decoration: line-through;
+    color: #8c8c8c;
+}
